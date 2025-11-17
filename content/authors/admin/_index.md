@@ -54,7 +54,7 @@ interests:
   - Network security
 
 education:
-  - area: Ph.D Cyber Security
+  - area: Ph.D  Cyber Security
     institution: Nankai University
     date_start: 2025-09-06
     date_end: 
@@ -67,7 +67,7 @@ education:
     #   url: 'https://example.com'
 
   - area: M.Eng Cyberspace Security
-    institution: Institute of Information Engineering, Chinese Academy of Science (IIE, CAS)
+    institution: IIE, CAS
     date_start: 2022-09-01
     date_end: 2025-06-30
     # summary: |
