@@ -88,6 +88,7 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    
 work:
   - position: Senior AI Research Scientist
     company_name: Meta AI
