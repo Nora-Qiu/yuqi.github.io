@@ -69,7 +69,7 @@ education:
   - area: M.Eng Cyberspace Security
     institution: Institute of Information Engineering, Chinese Academy of Science (IIE, CAS)
     date_start: 2022-09-01
-    date_end: 2025-06-31
+    date_end: 2025-06-3
     # summary: |
     #   GPA: 3.8/4.0
 
@@ -80,7 +80,7 @@ education:
   - area: B.Eng Cyberspace Security
     institution: Xidian University
     date_start: 2018-09-01
-    date_end: 2022-06-31
+    date_end: 2022-06-3
     # summary: |
     #   GPA: 3.4/4.0
       
@@ -88,7 +88,7 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    
+
 work:
   - position: Senior AI Research Scientist
     company_name: Meta AI
