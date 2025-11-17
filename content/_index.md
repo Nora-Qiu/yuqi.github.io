@@ -6,7 +6,7 @@
 
 design:
   # Default section spacing
-  spacing: '2rem'
+  spacing: '0.5rem'
   height: small
 
 sections:
@@ -23,6 +23,9 @@ sections:
         about: ''
         education: ''
         interests: ''
+        summary: ''
+        work: ''
+        biography: ''
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
