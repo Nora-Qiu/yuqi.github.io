@@ -7,6 +7,7 @@
 design:
   # Default section spacing
   spacing: '2rem'
+  height: small
 
 sections:
   - block: resume-biography-3

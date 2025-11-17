@@ -8,6 +8,8 @@ appearance:
   mode: system
   color: indigo
 
+favicon: "favicon.ico"
+
 # SEO
 marketing:
   seo:
