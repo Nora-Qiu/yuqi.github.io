@@ -1,5 +1,5 @@
 ---
-title: 'Qiu et al_2022_Detection of DoH Tunnels with Dual-Tier Classifier'
+title: 'Detection of DoH Tunnels with Dual-Tier Classifier'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -45,8 +45,8 @@ hugoblox:
 
 # Custom links
 links:
-  - type: pdf
-    url: ""
+  # - type: pdf
+  #   url: ""
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset
