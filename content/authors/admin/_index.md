@@ -175,7 +175,7 @@ languages:
 #     icon: hero/academic-cap
 #     summary: |
 #       Recognized for contributions to scaling laws in deep learning.
-# ---
+---
 
 ## About Me
 
