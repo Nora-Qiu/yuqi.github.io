@@ -6,7 +6,7 @@ title: 'RebirthDay Attack: Reviving DNS Cache Poisoning with the Birthday Parado
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Li, X., Zhang, M., Xu, Z., Miao, F.,
-  - admin. 
+  - admin
   - et al.
 
 
