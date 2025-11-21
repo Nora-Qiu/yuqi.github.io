@@ -7,5 +7,5 @@ export default defineConfig({
   // TODO: 如果你的 GitHub 仓库名不是 academic-portfolio，请修改这里！
   // 例如：如果仓库是 'my-web', 这里就填 '/my-web/'
   // 如果是 'username.github.io', 这里就填 '/'
-  base: '/yuqi.github.io/',
+  base: '/academic-portfolio/',
 })
