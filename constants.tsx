@@ -71,7 +71,8 @@ export const PROFILE_DATA: ProfileConfig = {
     { name: "English", percent: 80 },
     { name: "French", percent: 20 }
   ],
-  about: `Yuqi Qiu is a PhD student at Nankai University, specializing in DNS security and network measurement. Her research focuses on developing measurement-driven methodologies to characterize the internet ecosystem, as well as investigating vulnerabilities within its core infrastructure. She is passionate about uncovering systemic weaknesses in DNS error-handling and analyzing encrypted DNS deployments at scale.`,
+  about: `Yuqi Qiu is a PhD student at Nankai University, specializing in DNS security and network measurement. Her research focuses on developing measurement-driven methodologies to characterize the internet ecosystem, as well as investigating vulnerabilities within its core infrastructure.`,
+  
   news: [
     {
       date: "Oct 2025",
