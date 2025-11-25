@@ -13,7 +13,7 @@ export const Sidebar: React.FC = () => {
           <div className="absolute inset-0 bg-accent/10 rounded-2xl rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
           <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-card border-4 border-white">
             <img 
-              src="https://picsum.photos/600/600" 
+              src={PROFILE_DATA.avatar_url}
               alt={PROFILE_DATA.title}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
             />
