@@ -1,8 +1,9 @@
 import React from 'react';
 import { ProfileConfig } from './types';
 
+// The avatar image should be placed in the "public" folder at the root of the project.
+// e.g., /public/avatar.png
 export const PROFILE_DATA: ProfileConfig = {
-  // You can change this to a local path like "/avatar.jpg" if you place an image in the public folder
   avatar_url: "/avatar.png", 
   title: "Yuqi Qiu",
   name_pronunciation: "Yu Qi Qiu",
