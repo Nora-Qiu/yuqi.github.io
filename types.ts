@@ -1,12 +1,13 @@
-// Fix: Import React to resolve 'Cannot find namespace React' error
 import React from 'react';
 
 export interface ProfileConfig {
+  avatar_url: string;
   title: string;
   name_pronunciation: string;
   first_name: string;
   last_name: string;
   pronouns: string;
+  mbti?: string;
   status: {
     icon: string;
     text: string;

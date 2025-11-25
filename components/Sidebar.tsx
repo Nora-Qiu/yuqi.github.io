@@ -35,6 +35,14 @@ export const Sidebar: React.FC = () => {
               <span className="bg-stone-100 px-3 py-1 rounded-full text-stone-600 font-serif italic">
                 {PROFILE_DATA.pronouns}
               </span>
+              {PROFILE_DATA.mbti && (
+                <>
+                    <span className="text-stone-300">•</span>
+                    <span className="bg-stone-100 px-3 py-1 rounded-full text-stone-600 font-serif italic" title="MBTI Personality">
+                        {PROFILE_DATA.mbti}
+                    </span>
+                </>
+              )}
               <span className="text-stone-300">•</span>
               <span className="font-mono text-stone-500">{PROFILE_DATA.name_pronunciation}</span>
             </div>

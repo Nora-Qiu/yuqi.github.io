@@ -10,6 +10,7 @@ export const PROFILE_DATA: ProfileConfig = {
   first_name: "Yuqi",
   last_name: "Qiu",
   pronouns: "she/her",
+  mbti: "INFP",
   status: {
     icon: "🤯",
     text: "Ph.D. Student"
@@ -54,7 +55,7 @@ export const PROFILE_DATA: ProfileConfig = {
       date_start: "Sep. 2022",
       date_end: "Jun. 2025",
       gpa: "3.76/4.0",
-      summary: "Exam-exempted admission. Thesis on Encrypted DNS Manipulation."
+      summary: "Thesis on Encrypted DNS Manipulation."
     },
     {
       area: "B.Eng. Cyberspace Security",
@@ -170,6 +171,11 @@ export const PROFILE_DATA: ProfileConfig = {
   ],
   awards: [
     {
+      title: "Second Prize",
+      issuer: "Geekcon 2025",
+      year: "2025"
+    },
+    {
       title: "National Scholarship",
       issuer: "Ministry of Education of P.R. China",
       year: "2023"
@@ -178,6 +184,16 @@ export const PROFILE_DATA: ProfileConfig = {
       title: "Outstanding Student",
       issuer: "Chinese Academy of Sciences (CAS)",
       year: "2023 & 2024"
+    },
+    {
+      title: "Excellent Team, Internet Threat Tracing Track",
+      issuer: "DataCon Big Data Security Analysis Competition",
+      year: "2023"
+    },
+    {
+      title: "Winner, Email Security Track",
+      issuer: "DataCon Big Data Security Analysis Competition",
+      year: "2021"
     },
     {
       title: "Outstanding Student",
