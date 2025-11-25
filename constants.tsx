@@ -3,7 +3,7 @@ import { ProfileConfig } from './types';
 
 export const PROFILE_DATA: ProfileConfig = {
   // You can change this to a local path like "/avatar.jpg" if you place an image in the public folder
-  avatar_url: "components/avatar.png", 
+  avatar_url: "/avatar.png", 
   title: "Yuqi Qiu",
   name_pronunciation: "Yu Qi Qiu",
   first_name: "Yuqi",
