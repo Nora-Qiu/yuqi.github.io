@@ -4,7 +4,7 @@ import { ProfileConfig } from './types';
 // The avatar image should be placed in the "public" folder at the root of the project.
 // e.g., /public/avatar.png
 export const PROFILE_DATA: ProfileConfig = {
-  avatar_url: "/avatar.png", 
+  avatar_url: "/avatar.JPG", 
   title: "Yuqi Qiu",
   name_pronunciation: "Yu Qi Qiu",
   first_name: "Yuqi",

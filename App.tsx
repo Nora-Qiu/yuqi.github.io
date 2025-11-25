@@ -101,7 +101,7 @@ const App: React.FC = () => {
 
           {/* Footer */}
           <footer className="pt-12 pb-6 text-center border-t border-stone-200/60 mt-12">
-             <p className="text-stone-400 text-sm font-mono">© {new Date().getFullYear()} {PROFILE_DATA.last_name}. Designed with ❤️ & ☕️.</p>
+             <p className="text-stone-400 text-sm font-mono">© {PROFILE_DATA.last_name}. ❤️ & ☕️.</p>
           </footer>
 
       </main>

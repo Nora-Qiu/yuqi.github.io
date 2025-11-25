@@ -78,8 +78,8 @@ export const Sidebar: React.FC = () => {
 
       {/* Footer */}
       <div className="mt-12 lg:mt-8 text-center lg:text-left text-xs text-stone-400 border-t border-stone-100 pt-6">
-        <p className="font-serif italic text-stone-500">Academia is a conversation.</p>
-        <p className="mt-2 opacity-70">Tianjin, China</p>
+        {/* <p className="font-serif italic text-stone-500">Academia is a conversation.</p> */}
+        <p className="mt-2 opacity-70">China</p>
       </div>
     </aside>
   );
