@@ -90,10 +90,7 @@ export const PROFILE_DATA: ProfileConfig = {
       date: "May 2025",
       content: <span>Paper <strong>"RebirthDay Attack"</strong> accepted at <strong className="text-primary">ACM CCS 2025</strong>.</span>
     },
-    {
-      date: "2023",
-      content: "Awarded National Scholarship."
-    }
+
   ],
   publications: [
     {

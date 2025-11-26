@@ -54,7 +54,7 @@ const App: React.FC = () => {
           <section>
               <div className="flex items-center gap-3 mb-8 border-b border-stone-200 pb-3">
                   <FileTextIcon className="w-6 h-6 text-accent" />
-                  <h2 className="text-2xl font-serif font-bold text-primary">Selected Publications</h2>
+                  <h2 className="text-2xl font-serif font-bold text-primary">Publications</h2>
               </div>
               <PublicationList publications={PROFILE_DATA.publications} />
           </section>
