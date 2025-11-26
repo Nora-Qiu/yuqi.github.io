@@ -75,8 +75,8 @@ export const PROFILE_DATA: ProfileConfig = {
   
   news: [
     {
-      date: "Oct 2025",
-      content: <span>Paper <strong>"RebirthDay Attack"</strong> accepted at <strong className="text-primary">ACM CCS 2025</strong>.</span>
+      date: "Nov 2025",
+      content: "Received the IRTF Diversity Travel Grant to attend IETF 125."
     },
     {
       date: "Sep 2025",
@@ -85,6 +85,10 @@ export const PROFILE_DATA: ProfileConfig = {
     {
       date: "Jun 2025",
       content: "Completed Master's degree at IIE, CAS."
+    },
+    {
+      date: "May 2025",
+      content: <span>Paper <strong>"RebirthDay Attack"</strong> accepted at <strong className="text-primary">ACM CCS 2025</strong>.</span>
     },
     {
       date: "2023",
@@ -171,6 +175,11 @@ export const PROFILE_DATA: ProfileConfig = {
     }
   ],
   awards: [
+    {
+      title: "IRTF Diversity Travel grant",
+      issuer: "IETF",
+      year: "2025"
+    },
     {
       title: "Second Prize",
       issuer: "Geekcon 2025",
