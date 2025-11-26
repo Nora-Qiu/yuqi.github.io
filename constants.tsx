@@ -69,7 +69,7 @@ export const PROFILE_DATA: ProfileConfig = {
   languages: [
     { name: "Chinese", percent: 100 },
     { name: "English", percent: 80 },
-    { name: "French", percent: 20 }
+    { name: "French", percent: 40 }
   ],
   about: `Yuqi Qiu is a PhD student at Nankai University, specializing in DNS security and network measurement. Her research focuses on developing measurement-driven methodologies to characterize the internet ecosystem, as well as investigating vulnerabilities within its core infrastructure.`,
   
