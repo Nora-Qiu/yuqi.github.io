@@ -75,6 +75,10 @@ export const PROFILE_DATA: ProfileConfig = {
   
   news: [
     {
+      date: "Mar 2026",
+      content: <span>Paper <strong>"Jiggle Attack"</strong> accepted at <strong className="text-primary">IEEE SP 2026</strong>.</span>
+    },
+    {
       date: "Nov 2025",
       content: "Received the IRTF Diversity Travel Grant to attend IETF 125."
     },
