@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IETF 125 MAPRG — 6 DNS Resolver Security Drafts</title>
+<style>
+  :root { --plum: #802358; --plum-lt: #a83e78; --warm: #f9f0f5; --dark: #2d2d2d; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, sans-serif;
+         color: var(--dark); background: #fff; line-height: 1.6; }
+  .hero { background: var(--plum); color: #fff; padding: 2.5rem 1.5rem; text-align: center; }
+  .hero h1 { font-size: 1.6rem; margin-bottom: .4rem; }
+  .hero p { font-size: 1rem; opacity: .85; }
+  .container { max-width: 720px; margin: 0 auto; padding: 1.5rem; }
+  .area { margin-bottom: 2rem; }
+  .area-title { font-size: 1.1rem; font-weight: 700; color: var(--plum);
+                border-bottom: 2px solid var(--plum-lt); padding-bottom: .3rem;
+                margin-bottom: .8rem; }
+  .draft { background: var(--warm); border-radius: 8px; padding: 1rem 1.2rem;
+           margin-bottom: .7rem; }
+  .draft-name { font-weight: 700; color: var(--plum); font-size: 1rem; }
+  .draft-meta { font-size: .85rem; color: #666; margin: .2rem 0 .5rem; }
+  .draft-desc { font-size: .9rem; }
+  .draft a { color: var(--plum); text-decoration: none; border-bottom: 1px solid var(--plum-lt); }
+  .draft a:hover { color: var(--plum-lt); }
+  .stats { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
+           margin: 1.5rem 0; }
+  .stat { background: var(--plum); color: #fff; border-radius: 8px;
+          padding: .7rem 1.2rem; text-align: center; min-width: 100px; }
+  .stat-num { font-size: 1.5rem; font-weight: 700; }
+  .stat-lbl { font-size: .75rem; opacity: .85; }
+  footer { text-align: center; padding: 1.5rem; font-size: .85rem; color: #888; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Measurement of Systemic DNS Resolver Vulnerabilities</h1>
+  <p>Informing Six DNSOP Internet-Drafts &mdash; IETF 125 MAPRG Lightning Talk</p>
+  <p style="margin-top:.5rem; font-size:.9rem;">Xiang Li &amp; Yuqi Qiu, Nankai University</p>
+</div>
+
+<div class="container">
+
+<div class="stats">
+  <div class="stat"><div class="stat-num">93</div><div class="stat-lbl">CVEs assigned</div></div>
+  <div class="stat"><div class="stat-num">6</div><div class="stat-lbl">novel attacks</div></div>
+  <div class="stat"><div class="stat-num">50+</div><div class="stat-lbl">vendors notified</div></div>
+  <div class="stat"><div class="stat-num">2.4M</div><div class="stat-lbl">resolvers scanned</div></div>
+</div>
+
+<div class="area">
+  <div class="area-title">Area 1 &mdash; Cache &amp; Delegation</div>
+
+  <div class="draft">
+    <div class="draft-name">draft-li-dnsop-deep-delegation-scrutiny</div>
+    <div class="draft-meta">Paper: PHOENIX DOMAIN (NDSS 2023) &middot; 9 CVEs</div>
+    <div class="draft-desc">Scrutinize deep delegations and limit cache TTL for deeply nested names to prevent phoenix domain revival attacks.</div>
+    <a href="https://datatracker.ietf.org/doc/draft-li-dnsop-deep-delegation-scrutiny/">Datatracker &rarr;</a>
+  </div>
+
+  <div class="draft">
+    <div class="draft-name">draft-li-dnsop-enhanced-bailiwick</div>
+    <div class="draft-meta">Paper: MaginotDNS (USENIX Security 2023) &middot; 3 CVEs</div>
+    <div class="draft-desc">Enforce uniform bailiwick checks across all resolver modes, with specific rules for conditional DNS (CDNS) servers.</div>
+    <a href="https://datatracker.ietf.org/doc/draft-li-dnsop-enhanced-bailiwick/">Datatracker &rarr;</a>
+  </div>
+</div>
+
+<div class="area">
+  <div class="area-title">Area 2 &mdash; Query Handling &amp; Amplification</div>
+
+  <div class="draft">
+    <div class="draft-name">draft-li-dnsop-rd-flag-clarification</div>
+    <div class="draft-meta">Paper: TsuKing (ACM CCS 2023) &middot; 3 CVEs</div>
+    <div class="draft-desc">Clarify that resolvers receiving queries with RD=0 MUST NOT recurse or forward with RD=1.</div>
+    <a href="https://datatracker.ietf.org/doc/draft-li-dnsop-rd-flag-clarification/">Datatracker &rarr;</a>
+  </div>
+
+  <div class="draft">
+    <div class="draft-name">draft-li-dnsop-resolver-resilience</div>
+    <div class="draft-meta">Paper: DNSBomb (IEEE S&amp;P 2024) &middot; 10 CVEs</div>
+    <div class="draft-desc">Best Current Practice: response pacing with randomized delays and shorter upstream timeouts (1.5&ndash;3s) to prevent pulsing DoS.</div>
+    <a href="https://datatracker.ietf.org/doc/draft-li-dnsop-resolver-resilience/">Datatracker &rarr;</a>
+  </div>
+
+  <div class="draft">
+    <div class="draft-name">draft-li-dnsop-ecs-aggregation-fix</div>
+    <div class="draft-meta">Paper: RebirthDay (ACM CCS 2025) &middot; 35 CVEs</div>
+    <div class="draft-desc">Updates RFC 7871: add &ldquo;no-ECS-support&rdquo; state tracking per zone to prevent birthday-attack cache poisoning via ECS prefix diversity.</div>
+    <a href="https://datatracker.ietf.org/doc/draft-li-dnsop-ecs-aggregation-fix/">Datatracker &rarr;</a>
+  </div>
+</div>
+
+<div class="area">
+  <div class="area-title">Area 3 &mdash; Packet Pre-processing</div>
+
+  <div class="draft">
+    <div class="draft-name">draft-li-dnsop-response-preprocessing</div>
+    <div class="draft-meta">Paper: TUDOOR (IEEE S&amp;P 2024) &middot; 33 CVEs</div>
+    <div class="draft-desc">Formalize a response pre-processing state machine &mdash; defining what constitutes an &ldquo;invalid&rdquo; response, which no existing RFC specifies.</div>
+    <a href="https://datatracker.ietf.org/doc/draft-li-dnsop-response-preprocessing/">Datatracker &rarr;</a>
+  </div>
+</div>
+
+</div>
+
+<footer>
+  IETF 125 &middot; MAPRG &middot; March 2026 &middot;
+  Contact: <a href="mailto:lixiang@nankai.edu.cn" style="color:var(--plum);">lixiang@nankai.edu.cn</a>
+</footer>
+
+</body>
+</html>
