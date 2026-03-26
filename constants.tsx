@@ -1,5 +1,7 @@
 import React from 'react';
 import { ProfileConfig } from './types';
+import news from './data/news.json';
+import publications from './data/publications.json';
 
 // The avatar image should be placed in the "public" folder at the root of the project.
 // e.g., /public/avatar.png
@@ -73,52 +75,8 @@ export const PROFILE_DATA: ProfileConfig = {
   ],
   about: `Yuqi Qiu is a PhD student at Nankai University, specializing in DNS security and network measurement. Her research focuses on developing measurement-driven methodologies to characterize the internet ecosystem, as well as investigating vulnerabilities within its core infrastructure.`,
   
-  news: [
-    {
-      date: "Mar 2026",
-      content: <span>Paper <strong>"Jiggle Attack"</strong> accepted at <strong className="text-primary">IEEE SP 2026</strong>.</span>
-    },
-    {
-      date: "Nov 2025",
-      content: "Received the IRTF Diversity Travel Grant to attend IETF 125."
-    },
-    {
-      date: "Sep 2025",
-      content: "Started Ph.D. journey at Nankai University."
-    },
-    {
-      date: "Jun 2025",
-      content: "Completed Master's degree at IIE, CAS."
-    },
-    {
-      date: "May 2025",
-      content: <span>Paper <strong>"RebirthDay Attack"</strong> accepted at <strong className="text-primary">ACM CCS 2025</strong>.</span>
-    },
-
-  ],
-  publications: [
-    {
-      title: "RebirthDay Attack: Reviving DNS Cache Poisoning with the Birthday Paradox",
-      authors: "Li, X., Zhang, M., Xu, Z., Miao, F., Qiu, Y. et al.",
-      venue: "ACM CCS",
-      year: "2025",
-      tag: "Top Tier"
-    },
-    {
-      title: "Before Toasters Rise Up: A View into the Emerging DoH Resolver’s Deployment Risk",
-      authors: "Qiu, Y., Li, B., Li, Z., Jiao, L., Zhu, Y., & Liu, Q.",
-      venue: "IEEE ISCC",
-      year: "2023",
-      tag: "First Author"
-    },
-    {
-      title: "Detection of DoH Tunnels with Dual-Tier Classifier",
-      authors: "Qiu, Y., Li, B., Jiao, L., Zhu, Y., & Liu, Q.",
-      venue: "IEEE MSN",
-      year: "2022",
-      tag: "First Author"
-    }
-  ],
+  news: news,
+  publications: publications,
   research: [
     {
       title: "Analysis on Attack Surfaces in DNS through Malformed Query Analysis",

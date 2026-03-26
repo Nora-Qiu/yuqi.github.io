@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { PROFILE_DATA } from '../constants';
 import { GithubIcon, MailIcon, MapPinIcon } from './Icons';
 
@@ -57,6 +58,30 @@ export const Sidebar: React.FC = () => {
             <span className="uppercase tracking-wide font-medium">{PROFILE_DATA.organizations[0].name}</span>
           </div>
         </div>
+
+        {/* Navigation Menu */}
+        <nav className="w-full pt-4 flex flex-col gap-2">
+            {[
+              { to: "/", label: "Home" },
+              { to: "/news", label: "News" },
+              { to: "/publications", label: "Publications & Research" }
+            ].map((item) => (
+              <NavLink 
+                key={item.to}
+                to={item.to}
+                end={item.to === "/"}
+                className={({ isActive }) => 
+                  `px-5 py-3 rounded-xl font-medium transition-all duration-300 flex items-center gap-3 ${
+                    isActive 
+                      ? 'bg-accent text-white shadow-md shadow-accent/20 translate-x-1' 
+                      : 'text-stone-600 hover:bg-stone-50 hover:text-stone-900 border border-transparent'
+                  }`
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
+        </nav>
 
         {/* Collaboration / Contact Section */}
         <div className="w-full pt-6">

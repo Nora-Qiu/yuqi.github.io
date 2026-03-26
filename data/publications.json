@@ -1,0 +1,23 @@
+[
+  {
+    "title": "RebirthDay Attack: Reviving DNS Cache Poisoning with the Birthday Paradox",
+    "authors": "Li, X., Zhang, M., Xu, Z., Miao, F., Qiu, Y. et al.",
+    "venue": "ACM CCS",
+    "year": "2025",
+    "tag": "Top Tier"
+  },
+  {
+    "title": "Before Toasters Rise Up: A View into the Emerging DoH Resolver’s Deployment Risk",
+    "authors": "Qiu, Y., Li, B., Li, Z., Jiao, L., Zhu, Y., & Liu, Q.",
+    "venue": "IEEE ISCC",
+    "year": "2023",
+    "tag": "First Author"
+  },
+  {
+    "title": "Detection of DoH Tunnels with Dual-Tier Classifier",
+    "authors": "Qiu, Y., Li, B., Jiao, L., Zhu, Y., & Liu, Q.",
+    "venue": "IEEE MSN",
+    "year": "2022",
+    "tag": "First Author"
+  }
+]
