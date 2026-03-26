@@ -48,7 +48,7 @@ export interface LanguageItem {
 
 export interface NewsItem {
   date: string;
-  content: React.ReactNode;
+  content: string;
 }
 
 export interface PublicationItem {
