@@ -1,4 +1,11 @@
 [
+    {
+    "title": "Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities",
+    "authors": "Qiu, Y., Li, X., Liu, Z.",
+    "venue": "IEEE S&P",
+    "year": "2026",
+    "tag": "Top Tier"
+  },
   {
     "title": "RebirthDay Attack: Reviving DNS Cache Poisoning with the Birthday Paradox",
     "authors": "Li, X., Zhang, M., Xu, Z., Miao, F., Qiu, Y. et al.",
