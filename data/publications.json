@@ -1,4 +1,10 @@
 [
+  {
+    "title": "Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale",
+    "authors": "Xu, Z., Li, X., Qiu, Y., Sun, Lu.",
+    "venue": "IMC",
+    "year": "2026"
+  },
     {
     "title": "Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities",
     "authors": "Qiu, Y., Li, X., Liu, Z.",
