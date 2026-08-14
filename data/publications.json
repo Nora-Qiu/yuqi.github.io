@@ -1,13 +1,13 @@
 [
   {
     "title": "Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale",
-    "authors": "Xu, Z., Li, X., Qiu, Y., Sun, Lu.",
+    "authors": "Xu, Z., Li, X., Qiu, Y., Sun, L.",
     "venue": "IMC",
     "year": "2026"
   },
   {
     "title": "Seeing the Unseen: Uncovering Global IP Spoofing via DNS Transparent Forwarders",
-    "authors": "Qiu, Y., Li, X., Liu, Z., Zhang X.",
+    "authors": "Qiu, Y., Li, X., Liu, Z., Zhang, X.",
     "venue": "ESORICS",
     "year": "2026",
     "tag": "First Author"
