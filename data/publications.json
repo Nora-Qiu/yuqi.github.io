@@ -5,12 +5,19 @@
     "venue": "IMC",
     "year": "2026"
   },
+  {
+    "title": "Seeing the Unseen: Uncovering Global IP Spoofing via DNS Transparent Forwarders",
+    "authors": "Qiu, Y., Li, X., Liu, Z., Zhang X.",
+    "venue": "ESORICS",
+    "year": "2026",
+    "tag": "First Author"
+  },
     {
     "title": "Knocking on the Front Door: An LLM-Guided Systematic Analysis of DNS Query Processing Vulnerabilities",
     "authors": "Qiu, Y., Li, X., Liu, Z.",
     "venue": "IEEE S&P",
     "year": "2026",
-    "tag": "Top Tier"
+    "tag": "Top Tier & First Author"
   },
   {
     "title": "RebirthDay Attack: Reviving DNS Cache Poisoning with the Birthday Paradox",
